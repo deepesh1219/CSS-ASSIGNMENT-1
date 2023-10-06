@@ -1,0 +1,134 @@
+ASSIGNMENT QUESTIONS 
+                                        Index.HTML 
+                                        
+1. Create a simple page with some div tags and show different ways to add CSS as well as what happens
+   when you target the saMe eleMents with inline, internal, and external CSS. Also, utilize comments in the
+   proect where required?
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ASSIGNMENT</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS</h1>
+    <div id="Box">
+        Hello World
+    </div>
+    <br>
+    <div id="content">
+        Namaste India
+    </div>
+</body>
+</html>   
+
+2. Build an HTML page with multiple paragraphs, each assigned a unique class name. Write CSS rules using
+   class selectors to apply distinct styling to each paragraph. Follow the BEM naving convention and
+   explain how you've named the classes?
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ASSIGNMENT</title>
+</head>
+<body>
+    <h1>2 QUESTION</h1>
+    <div id="Content2">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, ullam reiciendis autem tempore ad quas
+           unde ratione odio eaque neque.</p>
+    </div>
+
+    <div id="paragraph">
+    <p class="paragraph1">This Is Paragraph 1</p>
+    <p class="paragraph2">This Is Paragraph 2</p>
+    <p class="paragraph3">This Is Paragraph 3</p>
+    </div>
+</body>
+</html>
+
+We Write Code to Paragraph that's why I Named the Id and Classes is Paragraph :-
+id is Paragraph and
+Classes is Paragraph1'Paragraph2'Paragraph3....
+
+3. Develop an HTML form with various input elements. Use CSS to style the form, including setting
+   background colors for input fields. Create a custom color palette for the form elements, and demonstrate
+   how to apply opacity to one of the form sections.
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ASSIGNMENT</title>
+</head>
+<body>
+    <h1>3.QUESTION</h1>
+    <br>
+    <br>
+    <h2>FORM</h2>
+    <br>
+    <br>
+    <input placeholder="Enter Your First Name">
+    <br>
+    <input placeholder="Enter Your Last Name">
+    <br>
+    <input placeholder="E-Mail">
+    <br>
+    <input placeholder="Mobile-No."> <button>Send OTP</button>
+    <br>
+    <input placeholder="Enter Your OTP">
+    <br>
+    <input placeholder="Age">
+    <br>
+    <button>Submit</button>
+    <br>                             
+</body>
+</html>   
+
+                                         Style.CSS 
+ 
+#box {
+    background-color: black;
+    color: white;
+   /* This Is A Comment */
+   text-align: center;
+}
+
+#content {
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: double; 
+}
+
+#Content2 {
+    background-color: brown;
+    color: whitesmoke;
+    /*This Is Comment*/
+}
+
+#paragraph {
+    background-color: black;
+    color: grey;
+    /* This Is Comment*/
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0.945);
+    /*Opasity*/
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.945);
+    color: white;
+    /* This Is Comment*/
+}
